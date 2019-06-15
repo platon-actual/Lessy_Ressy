@@ -1,0 +1,53 @@
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#tablero {
+  padding: 0px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+#color_actual{
+  width: 200px;
+   float: center;
+  /* display: table-cell; */
+  border: 4px solid black;
+}
+
+.llenar_casilleros{
+  width: 200px;
+   float: center;
+  /* display: table-cell; */
+  border: 4px solid black;
+}
+
+tr td {
+  width: 18px;
+  height: 18px;
+  background-color: #3344AA;
+}
+
+.blanco {background: #FFFFFF;}
+.negro {background: #000000;}
+
+#color_turquesa {background: turquoise;}
+#color_lima {background: lime;}
+#color_purpura {background: purple;}
+#color_rosa {background: pink;}
+#color_amarillo {background: yellow;}
+#color_negro {background: black;}
+#color_blanco {background: white;}
+#color_azul {background: blue;}
+#color_verde {background: green;}
+#color_rojo {background: red;}
+
+.color{
+	display: table-cell;
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0 auto;
+	width: 20px; height: 25px;
+	background: #222222;
+}

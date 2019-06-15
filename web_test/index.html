@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+/* index.html
+ * Programado por Ramiro Ríos.
+ * Esto es una nota de autoría parcial!
+ * - 20-feb-2019 16:00 -
+*/
+-->
+
+<html>
+	<head>
+		<title>Pixel Panel Paint</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link type="text/css" rel="stylesheet" href="estilos.css" />
+		<script type="text/javascript" src="funciones.js"> </script>
+		<script>
+			window.onload = function() {
+					crearTablero();
+					crearColores();
+			}
+		</script>
+	</head>
+	<body>
+		<center>
+			<div id="tablero_div">
+
+			</div>
+			<br />
+			<div id="colores_div" style=" display: table;"> </div>
+			<div id="color_actual"> - COLOR ACTUAL - </div>
+			<input type="button" class="llenar_casilleros" onclick="LlenarCasilleros('#FFFFFF');" value="PINTAR TODO DE BLANCO">
+			<br />
+			<input type="button" class="llenar_casilleros" onclick="LlenarCasilleros('#000000');" value="PINTAR TODO DE NEGRO" id="naranga">
+			<!-- <div id="info" style="border: 1px solid; width: 250px;"> </div> -->
+		</center>
+	</body>
+</html>
